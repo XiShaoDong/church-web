@@ -1,0 +1,22 @@
+/* footer */
+.footer{
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    background-color: var(--color-primary);
+    /* height: 10vh; */
+    text-align: center;
+    color: white;
+    padding: 40px 30px;
+
+}
+.heading-block{
+    padding:5px 15px;
+}
+.footer div{
+    color: white;
+    flex-direction: row;
+    justify-content: space-around;
+}
+/* footer */

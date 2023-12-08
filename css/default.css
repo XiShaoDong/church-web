@@ -1,0 +1,44 @@
+:root{
+    --color-primary: RGB(28, 45, 53, 1.0);
+    /* --color-primary: #2e4956; */
+    --color-secondary: #43787A;
+    --color-tertiary: #1C2D35;
+    --color-white:#FFFFFF;
+}
+html{
+    /* color-scheme: light dark; */
+}
+body{
+    overflow-x: hidden;
+}
+main{
+    margin: auto;
+}
+/* Default Start */
+    *{
+        margin: 0;
+        padding: 0;
+       
+        text-decoration: none; /* 去字体和链接的默认样式 */
+        list-style: none;
+        
+        justify-content: center; /* 居中 */
+        align-items: center;
+
+        color: black;
+        font-style: normal;
+        font-family: "Playfair Display",
+                     Arial,"Helvetica Neue",Helvetica,sans-serif;
+        font-weight: 400;
+        letter-spacing: 0.05em;
+    }
+
+    /* Solve the proble of excution transiction on load */
+    .transition_none *{
+        -webkit-transition:none!important;
+        -moz-transition:none!important;
+        -ms-transition:none!important;
+        -o-transition:none!important;
+        transition:none!important;
+    }
+/* Default End */
